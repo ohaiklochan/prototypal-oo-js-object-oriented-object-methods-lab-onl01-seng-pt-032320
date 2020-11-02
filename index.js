@@ -6,7 +6,7 @@ class BoardMember {
   }
   
   veto() {
-    return `No! I must disagree`
+    return `No, I must disagree`
   }
   
   approve() {
@@ -22,6 +22,6 @@ class BoardMember {
   }
   
   sayHi() {
-    return `Hi! My name is ` + this.name + `. I am from ` + this.homeState + `. and I was trained in ` + this.training + `.`
+    return `Hi! My name is ` + this.name + `. I am from ` + this.homeState + `, and I was trained in ` + this.training + `.`
   }
 }
