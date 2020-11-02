@@ -22,6 +22,6 @@ class BoardMember {
   }
   
   sayHi() {
-    returns
+    return `Hi! My name is` + this.name +
   }
 }
